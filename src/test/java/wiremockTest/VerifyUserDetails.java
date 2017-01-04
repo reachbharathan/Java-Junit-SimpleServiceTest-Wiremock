@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
  * Project Name simpleServiceTest
  */
 
-public class VerifyGetUser extends PlatformContractTestBase {
+public class VerifyUserDetails extends PlatformContractTestBase {
 
   public String completeUrl;
 
