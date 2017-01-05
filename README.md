@@ -1,13 +1,14 @@
-# Java Junit Simple Service Test
+# Simple Service Test using Wiremock
+Project contains simple service test to validate get and post response.The framework construction is done in [testng](testng.org) in Java.
 This project contains two simple service test to demonstrate how to write service test.
-This project has a stub(a web service test double) creator[**Wiremock**](https://github.com/tomakehurst/wiremock) in order to showcase a simple service.
+This project has a stub(a web service test double) called [**Wiremock**](https://github.com/tomakehurst/wiremock) in order to stimulate get and post response.
 
 ### Description
 Two test have been configured in this sample project
  1. for verify_Get_UserDetails
  2. for verify_Post_AddNewUser
 
-The sample stub can be extensified for different scenarios and tested accordingly
+The sample stub can be extensified for different scenarios and tested accordingly.
 
 
 ###Libraries used
@@ -26,3 +27,7 @@ for more reference to wiremock, please have a look into wiremock github - [tomak
 ### Steps to execute the test
 execute `mvn clean test` in the current folder
 
+
+#### Note
+1. Since there is no DB configured the delete and put operation are not provided in the example.
+2. This is just a sample project feel free to add more tests and mocks if interested.
